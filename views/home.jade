@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+	head
+		title sparkytest!
+	
+	body
+		h1 sparkytest!
+		
+		h2 my sparks
+
+		table(border=0, cellspacing=3)
+			each spark in mysparks
+				tr
+					td: =spark.name
+					td: a(href='/blinky/' + spark.id + '/on') ON
+					td: a(href='/blinky/' + spark.id + '/off') OFF

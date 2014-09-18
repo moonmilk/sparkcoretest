@@ -1,0 +1,19 @@
+{
+  "name": "sparkcoretest",
+  "version": "0.0.0",
+  "description": "playing around with spark core",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rsb",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.9.1",
+    "jade": "^1.7.0",
+    "lodash": "^2.4.1",
+    "spark": "^0.1.0",
+    "wait.for": "^0.6.6"
+  }
+}
